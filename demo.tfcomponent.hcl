@@ -8,7 +8,7 @@ required_providers {
 provider "null" "default" {}
 
 component "demo" {
-  source = "./"
+  source = "./modules/demo"
 
   providers = {
     null = provider.null.default
